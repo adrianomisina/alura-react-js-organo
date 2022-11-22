@@ -8,7 +8,7 @@ const Time = (props) => {
   const borderBottonCSS = {borderColor: props.corPrimaria}
 
   return (
-    
+    props.colaboradores.length > 0 &&
     <section className='time' style={backGroundCSS}>
         <h3 style={borderBottonCSS}>{props.nome}</h3>
         <div className='colaboradores'>
